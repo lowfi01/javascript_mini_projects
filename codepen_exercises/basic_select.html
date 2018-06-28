@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic HTML CSS JavaSCript</title>
+</head>
+
+<body>
+    <!-- https://codepen.io/jorgecardoso/post/0-basics-html-css-javascript#sec-objective -->
+    <!-- Exercise 1, very naive approach but it definitely works -->
+    <div class="container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <style>
+        body {
+            background: gray;
+        }
+
+        .circle {
+            border: 2px solid black;
+            background: green;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 350px;
+        }
+
+        .toggleClass {
+            visibility: hidden;
+            background: purple;
+        }
+    </style>
+    <script src="basic_select.js" type="text/JavaSCript"></script>
+
+</body>
+
+</html>
